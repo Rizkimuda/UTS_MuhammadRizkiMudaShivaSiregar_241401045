@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio - Muhammad Rizki Muda Shiva Siregar</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div class="navbar-container">
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown()">Menu ☰</button>
+        <div class="dropdown-content" id="dropdownContent">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#biodata" class="nav-link">Biodata</a>
+          <a href="#hobi" class="nav-link">Hobi</a>
+          <a href="#motto" class="nav-link">Motto Hidup</a>
+          <a href="#jadwal" class="nav-link">Jadwal</a>
+          <a href="#mengenal-web" class="nav-link"
+            >Mengenal HTML, CSS, JAVASCRIPT dan, TAILWIND</a
+          >
+          <a href="#tata-cara" class="nav-link"
+            >Tata Cara Membuat Website Sederhana</a
+          >
+          <a href="#kesan-pesan" class="nav-link"
+            >Kesan dan Pesan Belajar Web</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">Introduksi</h1>
+          <p class="hero-description">
+            Halo, nama saya Muhammad Rizki Muda Shiva Siregar. Saya adalah
+            mahasiswa Universitas Sumatera Utara dari fakultas Fasilkom-TI
+            dengan prodi Ilmu Komputer.
+          </p>
+        </div>
+      </section>
+
+      <section id="biodata" class="section">
+        <div class="container">
+          <h2 class="section-title">Biodata</h2>
+          <div class="biodata-card">
+            <div class="profile-image">
+              <img src="pas foto.png" alt="Foto Profil" />
+            </div>
+            <div class="biodata-info">
+              <div class="info-item">
+                <span class="label">Nama:</span>
+                <span class="value">Muhammad Rizki Muda Shiva Siregar</span>
+              </div>
+              <div class="info-item">
+                <span class="label">NIM:</span>
+                <span class="value">241401045</span>
+              </div>
+              <div class="info-item">
+                <span class="label">KOM:</span>
+                <span class="value">C</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobi" class="section">
+        <div class="container">
+          <h2 class="section-title">Hobi</h2>
+          <br />
+          <br />
+          <br />
+
+          <div class="hobby-category">
+            <h3 class="category-title">Main Game:</h3>
+            <div class="image-gallery horizontal">
+              <div class="image-item">
+                <img src="hades.jpg" alt="Hades Game" />
+              </div>
+              <div class="image-item">
+                <img src="ultrakill.jpg" alt="Ultrakill Game" />
+              </div>
+            </div>
+          </div>
+
+          <div class="hobby-category">
+            <h3 class="category-title">Membaca Komik:</h3>
+            <div class="image-gallery horizontal">
+              <div class="image-item">
+                <img src="tged.jpg" alt="The God of High School" />
+              </div>
+              <div class="image-item">
+                <img src="op.jpg" alt="One Piece" />
+              </div>
+              <div class="image-item">
+                <img src="iruma.jpg" alt="Welcome to Demon School" />
+              </div>
+              <div class="image-item">
+                <img src="eleceed.jpg" alt="Eleceed" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="motto" class="section">
+        <div class="container">
+          <h2 class="section-title">Motto Hidup</h2>
+          <div class="motto-section">
+            <blockquote class="motto-text">
+              "Life is short, but its the longest thing you will ever do."
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="jadwal" class="section">
+        <div class="container">
+          <h2 class="section-title">Jadwal Kuliah</h2>
+          <div>
+            <table class="schedule-table">
+              <thead>
+                <tr>
+                  <th>Jam</th>
+                  <th>Senin</th>
+                  <th>Selasa</th>
+                  <th>Rabu</th>
+                  <th>Kamis</th>
+                  <th>Jumat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="time-cell">8:00-8:50</td>
+                  <td>Basic Listening</td>
+                  <td></td>
+                  <td>Struktur Data</td>
+                  <td></td>
+                  <td>Basis Data</td>
+                </tr>
+                <tr>
+                  <td class="time-cell">8:50-9:40</td>
+                  <td>Basic Listening</td>
+                  <td></td>
+                  <td>Struktur Data</td>
+                  <td></td>
+                  <td>Basis Data</td>
+                </tr>
+                <tr>
+                  <td class="time-cell">9:40-10:30</td>
+                  <td></td>
+                  <td></td>
+                  <td>Struktur Data</td>
+                  <td></td>
+                  <td>Basis Data</td>
+                </tr>
+                <tr>
+                  <td class="time-cell">10:30-11:20</td>
+                  <td>Basic Speaking</td>
+                  <td></td>
+                  <td>Kecerdasan Buatan</td>
+                  <td></td>
+                  <td>Wirausahan digital</td>
+                </tr>
+                <tr>
+                  <td class="time-cell">11:20-12:10</td>
+                  <td>Basic Speaking</td>
+                  <td></td>
+                  <td>Kecerdasan Buatan</td>
+                  <td></td>
+                  <td>Wirausahan digital</td>
+                </tr>
+                <tr>
+                  <td class="time-cell">12:10-13:00</td>
+                  <td></td>
+                  <td>Praktikum Struktur Data</td>
+                  <td>Kecerdasan Buatan</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="time-cell">13:00-13:50</td>
+                  <td></td>
+                  <td>Praktikum Struktur Data</td>
+                  <td>Etika Profesi</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="time-cell">13:50-14:40</td>
+                  <td></td>
+                  <td></td>
+                  <td>Etika Profesi</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="time-cell">14:40-15:30</td>
+                  <td>Praktikum Pemrograman Web</td>
+                  <td>Praktikum Basis Data</td>
+                  <td>Pemrograman Web</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="time-cell">15:30-16:20</td>
+                  <td>Praktikum Pemrograman Web</td>
+                  <td>Praktikum Basis Data</td>
+                  <td>Pemrograman Web</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="time-cell">16:20-17:10</td>
+                  <td></td>
+                  <td></td>
+                  <td>Pemrograman Web</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="mengenal-web" class="section">
+        <div class="container">
+          <h2 class="section-title">
+            Mengenal HTML, CSS, JAVASCRIPT dan TAILWIND
+          </h2>
+
+          <div class="tech-grid">
+            <div class="tech-card">
+              <h3 class="tech-title">HTML</h3>
+              <p class="tech-description">
+                HTML adalah fondasi dari semua halaman web. Ini bukanlah bahasa
+                pemrograman, melainkan bahasa markup yang digunakan untuk
+                menstrukturkan konten. Dengan HTML, kita mendefinisikan
+                elemen-elemen seperti judul, paragraf, gambar, dan tautan. Tanpa
+                HTML, browser tidak akan tahu bagaimana cara menampilkan teks
+                atau memuat gambar. Singkatnya, HTML adalah tulang kerangka
+                website.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <h3 class="tech-title">CSS</h3>
+              <p class="tech-description">
+                Jika HTML adalah kerangka, maka CSS adalah segala sesuatu yang
+                membuatnya terlihat menarik. CSS digunakan untuk mengatur
+                tampilan visual—mulai dari warna teks, jenis huruf, spasi antar
+                elemen, hingga tata letak halaman yang kompleks. Dengan CSS,
+                kamu bisa mengubah website yang tadinya polos menjadi sebuah
+                karya seni digital yang indah dan responsif di berbagai
+                perangkat. CSS adalah desainer interior untuk website.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <h3 class="tech-title">JAVASCRIPT</h3>
+              <p class="tech-description">
+                Sekarang website kita sudah punya struktur (HTML) dan tampilan
+                (CSS). Lalu bagaimana membuatnya "hidup"? Di sinilah JavaScript
+                berperan. JavaScript adalah bahasa pemrograman yang memungkinkan
+                kita menambahkan interaktivitas, seperti slider gambar, formulir
+                yang divalidasi secara real-time, pop-up, atau bahkan animasi
+                yang kompleks. JavaScript adalah otak yang membuat website
+                merespons tindakan pengguna.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <h3 class="tech-title">TAILWIND</h3>
+              <p class="tech-description">
+                Tailwind CSS adalah sebuah framework CSS yang unik. Alih-alih
+                menyediakan komponen siap pakai seperti tombol atau kartu,
+                Tailwind memberikan utility classes—kelas-kelas kecil yang bisa
+                digabungkan langsung di dalam HTML untuk mendesain elemen.
+                Contohnya, daripada menulis kode CSS terpisah untuk membuat teks
+                tebal dan berwarna biru, dengan Tailwind kita cukup menambahkan
+                kelas seperti class="font-bold text-blue-500". Ini sangat
+                mempercepat proses styling dan menjaga konsistensi desain.
+                Tailwind adalah jalan pintas cerdas untuk menata gaya website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tata-cara" class="section">
+        <div class="container">
+          <h2 class="section-title">Tata Cara Membuat Website Sederhana</h2>
+
+          <div class="tutorial-steps">
+            <div class="step-card">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h3 class="step-title">
+                  Persiapkan Software yang Akan Dipakai
+                </h3>
+                <p class="step-description">
+                  Sebelum memulai perjalanan coding, kita perlu menyiapkan
+                  alat-alat yang akan digunakan. Software yang dapat dipakai
+                  untuk ini adalah Visual Studio Code.
+                </p>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h3 class="step-title">Buat Folder Proyek</h3>
+                <p class="step-description">
+                  Sebelum kita mulai coding, kita perlu membuat folder serta
+                  file-file yang akan dipakai dalam proyek website. File yang
+                  dibutuhkan adalah index.html, styles.css, dan script.js.
+                </p>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h3 class="step-title">
+                  Membuat Struktur Website Memakai HTML
+                </h3>
+                <p class="step-description">
+                  HTML dipakai untuk membangun fondasi dari website. Contoh dari
+                  pemakaiannya adalah sebagai berikut.
+                </p>
+                <div class="code-example">
+                  <img src="html.jpg" alt="Contoh Kode HTML" />
+                </div>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h3 class="step-title">Tambahkan Style Dengan CSS</h3>
+                <p class="step-description">
+                  Setelah membuat fondasi kita tambahkan style untuk
+                  mengembangkan visual dari website kita. Berikut adalah contoh
+                  penambahan visual di dalam CSS.
+                </p>
+                <div class="code-example">
+                  <img src="CSS.jpg" alt="Contoh Kode CSS" />
+                </div>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">5</div>
+              <div class="step-content">
+                <h3 class="step-title">Tambahkan Fitur Dengan JAVASCRIPT</h3>
+                <p class="step-description">
+                  JAVASCRIPT dipakai untuk menambahkan fitur ke dalam website.
+                  Berikut ini adalah contoh sederhana dari fitur JAVASCRIPT.
+                </p>
+                <div class="code-example">
+                  <img src="JS.jpg" alt="Contoh Kode JavaScript" />
+                </div>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">6</div>
+              <div class="step-content">
+                <h3 class="step-title">Website Anda Selesai</h3>
+                <p class="step-description">
+                  Dengan tahap sebelumnya anda bisa membuat suatu website
+                  sederhana. Anda bisa melihat hasil website anda dengan memilih
+                  opsi "open in default browser" atau bisa membuka file HTML
+                  secara langsung di file explorer anda.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kesan-pesan" class="section">
+        <div class="container">
+          <h2 class="section-title">Kesan dan Pesan Belajar Web</h2>
+
+          <div class="reflection-cards">
+            <div class="reflection-card">
+              <h3 class="reflection-title">Kesan</h3>
+              <blockquote class="reflection-quote">
+                "Awalnya waktu saya mulai mempelajari pemrograman web saya
+                bingung. Tapi, setelah saya memahami dasarnya, saya mulai
+                menyukai prosesnya."
+              </blockquote>
+            </div>
+
+            <div class="reflection-card">
+              <h3 class="reflection-title">Pesan</h3>
+              <blockquote class="reflection-quote">
+                "Pesan saya untuk yang baru mulai mempelajari pemrograman web
+                adalah trial and error. Ini berarti terus mencoba dan jika
+                menghadapi suatu error, coba lagi"
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
